@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y texlive \
 		python \
 		python-pip \
 		xzdec \
-		&& apt-get --reinstall install ttf-mscorefonts-installer
+		&& apt-get --reinstall install -y ttf-mscorefonts-installer
 RUN pip install pygments
 RUN tlmgr init-usertree && tlmgr install minted \
 		lineno \
