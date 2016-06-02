@@ -18,4 +18,5 @@ RUN pip install pygments
 RUN tlmgr init-usertree && tlmgr install minted \
 		lineno \
 		xcolor \
-		tocbibind
+		tocbibind \
+		algorithmicx
