@@ -19,4 +19,5 @@ RUN tlmgr init-usertree && tlmgr install minted \
 		lineno \
 		xcolor \
 		tocbibind \
-		algorithmicx
+		algorithmicx \
+		algorithm2e
