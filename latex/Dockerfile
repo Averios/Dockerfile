@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y texlive \
 		wget \
 		curl \
 		git \
+		texlive-science \
 		&& apt-get --reinstall install -y ttf-mscorefonts-installer
 RUN pip install pygments
 RUN tlmgr init-usertree && tlmgr install minted \
